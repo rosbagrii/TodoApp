@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #f0f4f8;
+  user-select: none;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

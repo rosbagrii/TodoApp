@@ -1,0 +1,16 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.img-holder {
+    height: 2vw;
+    width: 2vw;
+    object-fit: contain;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}

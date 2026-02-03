@@ -1,0 +1,44 @@
+.todo {
+    background-color: #e2e8f0;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5vw;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    justify-content: space-between;
+    border-radius: 0.75rem;
+}
+
+.todo:hover {
+    background-color: #cbd5e1;
+}
+
+.todo.done {
+    background-color: #cbd5e1;
+}
+
+.delete-wrapper {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+.delete-img-box {
+    height: 50%;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #475569;
+}
+
+input[type="checkbox"] {
+    height: 1vw;
+    width: 1vw;
+    accent-color: #3b82f6;
+}
